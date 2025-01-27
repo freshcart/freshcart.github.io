@@ -18,5 +18,5 @@ ors:
       maximum_waypoints: 500
       maximum_snapping_radius: 4000
     profiles:
-      car:
+      driving-car:
         enabled: true
