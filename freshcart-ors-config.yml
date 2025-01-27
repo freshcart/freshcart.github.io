@@ -12,11 +12,43 @@ springdoc:
     version: OPENAPI_3_0
 ors:
   engine:
-    source_file: /home/ors/files/illinois-latest.osm.pbf
-    profile_default:
-      maximum_distance: 10000000
-      maximum_waypoints: 500
-      maximum_snapping_radius: 4000
+    build:
+      source_file: /home/ors/files/illinois-latest.osm.pbf
     profiles:
       driving-car:
-        enabled: true
+        encoder_name: driving-car
+        build:
+          encoder_options:
+            turn_costs: true
+            block_fords: false
+            use_acceleration: true
+            enable_custom_models: false
+          preparation:
+            min_network_size: 200
+            methods:
+              ch:
+                enabled: true
+                threads: 1
+                weightings: fastest
+              lm:
+                enabled: false
+              core:
+                enabled: true
+                threads: 1
+                weightings: fastest,shortest
+                landmarks: 64
+                lmsets: highways;allow_all
+          ext_storages:
+            WayCategory:
+            HeavyVehicle:
+            Tollways:
+            WaySurfaceType:
+            RoadAccessRestrictions:
+              use_for_warnings: true
+        service:
+          execution:
+            methods:
+              lm:
+                active_landmarks: 6
+              core:
+                active_landmarks: 6
