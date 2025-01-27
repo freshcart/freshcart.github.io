@@ -12,10 +12,12 @@ springdoc:
     version: OPENAPI_3_0
 ors:
   engine:
-    build:
-      source_file: /home/ors/files/illinois-latest.osm.pbf
+    profile_default:
+      build:
+        source_file: /home/ors/files/illinois-latest.osm.pbf
     profiles:
       driving-car:
+        enabled: true
         encoder_name: driving-car
         build:
           encoder_options:
