@@ -5,23 +5,35 @@
   },
   {
     "question": "Do I need to enable location services?",
-    "answer": "No. You can search for your address manually using our built-in address finder powered by Mapbox."
+    "answer": "No. Freshcart mobile app requires an address to search for nearby carts and inventories. You can manually enter your address or use our built-in address finder powered by Mapbox."
   },
   {
     "question": "How do I place an order?",
-    "answer": "Once you've selected your location, you can browse the store and add items to your basket. When you're ready, proceed to checkout."
+    "answer": "Once you've selected your delivery location, you can browse nearby carts, browse inventory and add items to your basket. When you're ready, proceed to checkout."
+  },
+  {
+    "question": "Will my order get delivered at my doorstep?",
+    "answer": "No. Freshcart is a store-hailing service. You may think of it as a store-on-wheels. You will need to be present at your delivery location to receive your order. The cart will not enter your premises or deliver inside your home.<br/><br/>"
   },
   {
     "question": "What areas do you serve?",
-    "answer": "Freshcart is currently available in select neighborhoods. Use the location search to check availability in your area."
+    "answer": "Freshcart is currently available by invite only in select neighborhoods across Naperville, Bolingbrook, and Aurora, Illinois. You can view our current service areas <a href='serviceareas.html'>here</a>. You can also enter an address in the Freshcart Mobile App to check if we serve your location."
+  },
+  {
+    "question": "When are carts available for delivery?",
+    "answer": "Freshcart is committed to providing round-the-clock service to meet your needs anytime. Currently, cart availability varies by location and demand as we carefully analyze usage patterns to optimize service quality and efficiency. We’re continuously expanding and adjusting our coverage to offer more consistent, convenient access in the near future."
   },
   {
     "question": "Is there a delivery fee?",
-    "answer": "We offer free delivery for standard orders. A small express fee may apply for urgent deliveries."
+    "answer": "We offer free delivery for standard orders. A $0.99 fee is applied for Express orders."
   },
   {
     "question": "What is the difference between a Standard order and an Express order?",
-    "answer": "Freshcart routing algorithm prioritizes all Expedite orders over Standard orders, for a small fee of $0.99 per order.<br/><br/><b>Coming Soon:</b>You will be "
+    "answer": "Freshcart's routing algorithm processes orders on a first-in-first-out basis. However, Express orders are prioritized over Standard orders, ensuring faster delivery for customers who choose to pay the $0.99 Express fee."
+  },
+  {
+    "question": "Is there a Freshcart subscription?",
+    "answer": "No. Freshcart does not offer subscriptions at the moment."
   },
   {
     "question": "Can I pay with my credit card?",
