@@ -1,0 +1,210 @@
+product_category,Description
+GENERAL_MERCHANDISE,This category will cover most products and should be used as the default
+EXEMPT,Used to denote a product as always exempt from taxes
+GIFT_CARDS,Gift cards
+PRODUCT_INSURANCE,Optional insurance fee added to invoice
+SAAS_GENERAL,Software as a service
+SOFTWARE_DOWNLOAD,General category for a one-time software purchase
+SOFTWARE_B2B,Software for enterprise server or business use
+SOFTWARE_B2B_LICENSE,Software license for business use
+SOFTWARE_PERSONAL,Software license sold to an individual
+DIGITAL_VIDEO_STREAMED,Video programming streamed over the internet
+DIGITAL_VIDEO_STREAMED_LIVE,Live entertainment event streamed over the internet
+DIGITAL_AUDIO_NONPERMANENT_USE_RIGHTS_DOWNLOAD,Downloaded media rights for less than permanent use
+DIGITAL_AUDIO_PERMANENT_USE_RIGHTS_DOWNLOAD,Downloaded media rights for permanent use
+DIGITAL_AUDIO_STREAMED,Audio programming streamed over the internet
+DIGITAL_AUDIO_STREAMED_LIVE,Live audio streamed over the internet
+DIGITAL_IMAGES_DOWNLOAD,Photographic images
+DIGITAL_GRAPHICS_DOWNLOAD,Graphics and art
+GENERAL_SAAS_NO_MS_SERVER,"General SaaS service fee, server outside the state"
+GENERAL_SAAS_WITH_MS_SERVER,"General SaaS service fee, server inside the state"
+SAAS_WITH_DOWNLOAD_USED,"SaaS with downloadable component, downloaded by customer"
+SAAS_WITH_DOWNLOAD_UNUSED,"SaaS with downloadable component, not downloaded by customer"
+SAAS_WITH_DATABASE_ACCESS,SaaS includes access to information service or database
+SECURITY_SAAS_WITH_MS_SERVER,"Security SaaS service fee, server inside the state"
+SECURITY_SAAS_NO_MS_SERVER,"Security SaaS service fee, server outside the state"
+SECURITY_SAAS_DOWNLOADABLE_COMPONENT,Security SaaS with downloadable component
+CONFERENCING_SAAS_WITH_MS_SERVER,"Conferencing & meeting SaaS service fee, server inside the state"
+CONFERENCING_SAAS_NO_MS_SERVER,"Conferencing & meeting SaaS service fee, server outside the state"
+CONFERENCING_SAAS_DOWNLOADABLE_COMPONENT,Conferencing SaaS with downloadable component
+SEPARATE_STATED_PROGRAMMING_IMPLEMENTATION_SAAS,"SaaS implementation or set-up fees, separately stated on invoices"
+BUNDLED_PROGRAMMING_IMPLEMENTATION_SAAS,"SaaS implementation or set-up fees, not separately stated on invoices"
+SEPARATE_STATED_CUSTOM_PROGRAMMING_SAAS,"SaaS custom programming services, separately stated on invoices"
+BUNDLED_CUSTOM_PROGRAMMING_SAAS,"SaaS custom programming services, not separately stated on invoices"
+OPTIONAL_SAAS_UPDATES_SUPPLIER_NO_MS_SERVER,"Optional maintenance agreement, software support & updates by supplier, server outside state"
+OPTIONAL_SAAS_UPDATES_SUPPLIER_WITH_MS_SERVER,"Optional maintenance agreement, software support & updates by supplier, server inside state"
+OPTIONAL_SAAS_HELPDESK_SUPPLIER,"Optional maintenance agreement, helpdesk support by supplier"
+OPTIONAL_SAAS_UPDATES_THIRDPARTY_NO_MS_SERVER,"Optional maintenance agreement, software support & updates by third party, server outside state"
+OPTIONAL_SAAS_UPDATES_THIRDPARTY_WITH_MS_SERVER,"Optional maintenance agreement, software support & updates by third party, server inside state"
+OPTIONAL_SAAS_HELPDESK_THIRDPARTY,"Optional maintenance agreement, helpdesk support by third party"
+REQUIRED_SAAS_UPDATES_SUPPLIER_NO_MS_SERVER,"Mandatory maintenance agreement, software support & updates by supplier, server outside state"
+REQUIRED_SAAS_UPDATES_SUPPLIER_WITH_MS_SERVER,"Mandatory maintenance agreement, software support & updates by supplier, server inside state"
+REQUIRED_SAAS_HELPDESK_SUPPLIER,"Mandatory maintenance agreement, helpdesk support by supplier"
+REQUIRED_SAAS_UPDATES_THIRDPARTY_NO_MS_SERVER,"Mandatory maintenance agreement, software support & updates by third party, server outside state"
+REQUIRED_SAAS_UPDATES_THIRDPARTY_WITH_MS_SERVER,"Mandatory maintenance agreement, software support & updates by third party, server inside state"
+REQUIRED_SAAS_HELPDESK_THIRDPARTY,"Mandatory maintenance agreement, helpdesk support by third party"
+INFRA_SERVICE_COMPUTE_MEMORY_NO_MS_SERVER,"IaaS CPU and RAM usage charges, analyzed as service, infrastructure within state"
+INFRA_SERVICE_COMPUTE_MEMORY_WITH_MS_SERVER,"IaaS CPU and RAM usage charges, analyzed as service, infrastructure outside state"
+INFRA_RENTAL_COMPUTE_MEMORY_NO_MS_SERVER,"IaaS CPU and RAM usage charges, analyzed as rental of TPP, infrastructure within state"
+INFRA_RENTAL_COMPUTE_MEMORY_WITH_MS_SERVER,"IaaS CPU and RAM usage charges, analyzed as rental of TPP, infrastructure outside state"
+INFRA_SERVICE_DATA_STORAGE_NO_MS_SERVER,"IaaS server storage and backup usage charges, analyzed as service, infrastructure within state"
+INFRA_SERVICE_DATA_STORAGE_WITH_MS_SERVER,"IaaS server storage and backup usage charges, analyzed as service, infrastructure outside state"
+INFRA_RENTAL_DATA_STORAGE_NO_MS_SERVER,"IaaS server storage and backup usage charges, analyzed as rental of TPP, infrastructure within state"
+INFRA_RENTAL_DATA_STORAGE_WITH_MS_SERVER,"IaaS server storage and backup usage charges, analyzed as rental of TPP, infrastructure outside state"
+BEVERAGES,General category used for beverages for human consumption in the home
+BEVERAGE_BOTTLED_WATER,Bottled water
+BEVERAGE_CARBONATED,General category for carbonated beverages
+BEVERAGE_CARBONATED_JUICE_0_25_PERCENT,Carbonated juice drink with less than 25% fruit or vegetable juice by volume
+BEVERAGE_CARBONATED_JUICE_100_PERCENT,Carbonated juice drink with 100% fruit or vegetable juice by volume
+BEVERAGE_CARBONATED_JUICE_25_50_PERCENT,Carbonated juice drink with between 25 and 50% fruit or vegetable juice by volume
+BEVERAGE_CARBONATED_JUICE_50_70_PERCENT,Carbonated juice drink with between 50 and 70% fruit or vegetable juice by volume
+BEVERAGE_CARBONATED_JUICE_70_100_PERCENT,Carbonated juice drink with between 70 and 100% fruit or vegetable juice by volume
+BEVERAGE_CARBONATED_MINERAL_WATER,Carbonated mineral water
+BEVERAGE_CARBONATED_NA_BEER_WINE,Carbonated nonalcoholic beer or carbonated nonalcoholic wine
+BEVERAGE_CARBONATED_WATER_SWEETENED,Carbonated flavored water with sweetener
+BEVERAGE_CARBONATED_WATER_UNSWEETENED,Carbonated flavored water without sweetener
+BEVERAGE_CARBONATED_WATER,Carbonated water
+BEVERAGE_COFFEE_TEA,100% coffee or tea
+BEVERAGE_ICE_COFFEE,Iced coffee
+BEVERAGE_SWEET_TEA,Sweetened tea (liquid or leaves)
+BEVERAGE_UNSWEETENED_TEA,Unsweetened tea (liquid or leaves)
+BEVERAGE_MINERAL_WATER,Mineral water
+BEVERAGE_DISTILLED_WATER,Distilled water
+BEVERAGE_SOFT_DRINK,General category for soft drinks
+BEVERAGE_JUICE,Fruit juice contains over 50% to less than 70% juice by volume
+BEVERAGE_FRUIT_JUICE_0_10_PERCENT,Juice drink with less than 10% fruit juice by volume
+BEVERAGE_FRUIT_JUICE_10_25_PERCENT,Juice drink with between 10 and 25% fruit juice by volume
+BEVERAGE_FRUIT_JUICE_100_PERCENT,Juice drink with 100% fruit juice by volume
+BEVERAGE_FRUIT_JUICE_25_50_PERCENT,Juice drink with between 25 and 50% fruit juice by volume
+BEVERAGE_FRUIT_JUICE_50_70_PERCENT,Juice drink with between 50 and 70% fruit juice by volume
+BEVERAGE_FRUIT_JUICE_70_100_PERCENT,Juice drink with between 70 and 100% fruit juice by volume
+BEVERAGE_VEGETABLE_JUICE_0_10_PERCENT,Juice drink with less than 10% vegetable juice by volume
+BEVERAGE_VEGETABLE_JUICE_10_25_PERCENT,Juice drink with between 10 and 25% vegetable juice by volume
+BEVERAGE_VEGETABLE_JUICE_25_50_PERCENT,Juice drink with between 25 and 50% vegetable juice by volume
+BEVERAGE_VEGETABLE_JUICE_50_70_PERCENT,Juice drink with between 50 and 70% vegetable juice by volume
+BEVERAGE_VEGETABLE_JUICE_70_100_PERCENT,Juice drink with between 70 and 100% vegetable juice by volume
+BEVERAGE_VEGETABLE_JUICE_100_PERCENT,Juice drink with 100% vegetable juice by volume
+BEVERAGE_JUICE_CONCENTRATE_0_25_PERCENT,Juice concentrate with less than 25% juice by volume
+BEVERAGE_JUICE_CONCENTRATE_100_PERCENT,Juice concentrate with 100% juice by volume
+BEVERAGE_JUICE_CONCENTRATE_25_50_PERCENT,Juice concentrate with 25-50% juice by volume
+BEVERAGE_JUICE_CONCENTRATE_50_70_PERCENT,Juice concentrate with 50-70% juice by volume
+BEVERAGE_JUICE_CONCENTRATE_70_100_PERCENT,Juice concentrate with 70-100% juice by volume
+BEVERAGE_MIXES,General category for mixes or powders used to make beverages
+BEVERAGE_SOFT_DRINK_MIX,Mixes or powders used to make soft drinks
+BEVERAGE_SWEET_TEA_MIX,Mixes or powders used to make sweetened teas
+BEVERAGE_POWDER_MIXED_WITH_MILK,Mix or powder commonly mixed with milk to make a beverage
+BEVERAGE_MILK,Milk - contains primary dairy product or ingredient bases
+ALCOHOL_BEER,Fermented malt beverage containing more than 3.2% alcohol by weight
+ALCOHOL_COCKTAILMIX,General category for cocktail mixes and mixers
+ALCOHOL_LIQUOR,General category for distilled spirits and liquor
+ALCOHOL_WINE,General category for wine and wine-based beverages
+BOOKS,General category for books
+BOOKS_DIGITAL_ACCESS,Digital books with web or streaming access only
+BOOKS_DIGITAL_DOWNLOAD,Downloadable digital books
+CLOTHING_GENERAL,General clothing
+CLOTHING_ATHLETIC,Specialized athletic clothing
+CLOTHING_BATHING_SUITS,Bathing suits
+CLOTHING_DIAPERS,Reusable cloth diapers
+CLOTHING_JEWELRY,Jewelry
+CLOTHING_MATERNITY,Maternity clothing
+CLOTHING_SAFETY,Safety clothing/equipment/footwear
+CLOTHING_TODDLER,Toddler clothing targeted towards children up to age 5
+CLOTHING_FORMAL,Formal wear
+CLOTHING_UNIFORMS,Athletic uniforms
+CLOTHING_BELTBUCKLES,Belt buckles
+CLOTHING_NOTIONS,"Small clothing objects or accessories, such as buttons, zippers, or snaps"
+CLOTHING_COSTUMES,Costumes
+CBD,Topical product contains cannabidiol
+HOME_CBD_TOPICAL,Topical product contains cannabidiol
+HOME_CBD_EDIBLE,Edible product contains cannabidiol
+DIGITAL_DOWNLOAD_ART_VIDEO,Digital audio-visual works - download
+DIGITAL_ACCESS_ART_VIDEO,Digital audio-visual works - web or streaming access only
+DIGITAL_ACCESS_AUDIO_ONLY,Digital audio works - web or streaming access only
+DIGITAL_DOWNLOAD_AUDIO_ONLY,Digital audio works - download
+EVENT_TICKETS,"Tickets to both live, in-person events as well as virtual events"
+FOOD_GENERAL,General category used for food for human consumption in the home
+FOOD_NUTRITION_BAR,General category for a food or nutrition bar
+FOOD_NUTRITION_BAR_CONTAINS_FLOUR,Nutrition/energy bar that contains sweeteners or candy and also contains flour
+FOOD_NUTRITION_BAR_NO_FLOUR,Nutrition/energy bar that contains sweeteners or candy but does not contain flour
+FOOD_NUTRITION_BAR_NO_SWEETENERS,Nutrition/energy bar with no sweeteners or candy
+FOOD_BAKERYPRODUCT,"Small batch bakery products such as bread loaves, pastries etc."
+FOOD_SNACKS,"Single-serving packages of crackers, chips, popcorn, etc"
+FOOD_BUNDLE,General category for bundled baskets that contain food as well as other merchandise
+FOOD_BUNDLE_MOSTLY_FOOD,Bundled food basket in which more than 50% of the value comes from food products
+FOOD_BUNDLE_MOSTLY_NON_FOOD,Bundled food basket in which less than 50% of the value comes from food products
+FOOD_CANDY,General category for products marketed as candy
+FOOD_CANDYFORBAKING,"Examples include chocolate chips and edible cake decorations"
+FOOD_MARSHMALLOWS,Marshmallows
+FOOD_CANDY_COATED,Candy-coated pretzels/cookies/wafers/cereal bars
+FOOD_CANDY_WITH_FLOUR,Candy that contains flour
+FOOD_FOODCOLORING,Food coloring
+FOOD_SOLDTOBUSINESS,Food sold to businesses for business use
+FOOD_ICECREAM,Containers or packages of ice cream products greater than a single serving
+FOOD_ICECREAMSINGLESERVE,Single serving of an ice cream product
+FOOD_FRUIT_SNACKS,Fruit snacks that contain fruit as their 1st ingredient
+FOOD_TRAIL_MIX,General category for trail mix or similar mixture of snack food pieces
+FOOD_ROASTED_NUTS,Roasted nuts
+FOOD_SWEETENED_DRIED_FRUIT,Sweetened dried fruit
+SUPPLEMENTS_GENERAL,Vitamins & minerals for human consumption
+SUPPLEMENTS_ENERGY_DRINK,Energy drink with supplement facts
+SUPPLEMENTS_FOOD_SUBSTITUTE_BAR,Food substitute bar
+SUPPLEMENTS_FOOD_SUBSTITUTE_POWDER,Food substitute supplements
+SUPPLEMENTS_OIL,Edible oil with supplement facts
+HOME_PERSONAL_CARE,General category for personal care products
+HOME_ADULT_DIAPERS,Adult diapers
+HOME_BICYCLES,Bicycles
+HOME_CONDOMS,Condoms
+HOME_COTTON_SWABS,Cotton swabs
+HOME_FACE_MASK,Reusable or cloth mask
+HOME_FACE_MASK_SINGLE_USE,Disposable or surgical mask
+HOME_N95_MASK,N95 mask
+HOME_FLOSS,Dental floss
+HOME_INCONTINENCE_PRODUCTS,Incontinence products
+HOME_MOUTHWASH,Mouthwash (non-medicated)
+HOME_HAND_SANITIZER,Hand sanitizer
+HOME_SHAMPOO,Shampoo (non-medicated)
+HOME_TAMPONS,Tampons or other feminine hygiene products
+HOME_TOILET_TISSUE,Toilet tissue
+HOME_TOOTHBRUSH,Toothbrushes
+HOME_TOOTHPASTE,Toothpaste (non-medicated)
+HOME_SUNSCREEN,Sunblock/sunscreen
+HOME_WIPES,"Disposable, hygienic cloth or paper cleaning wipes"
+HOME_PAPER_GOODS,Other disposable household paper products
+HOME_PAPER_PLATES_CUPS,Paper plates and cups
+HOME_PAPER_TOWELS,Paper towels/paper napkins/facial tissues
+HOME_PLASTIC_PLATES_CUPS,Plastic plates and cups
+HOME_CHARCOAL,Charcoal
+HOME_BABY_GENERAL,Baby and toddler products
+HOME_DIAPERS_DISPOSABLE,Disposable diapers
+HOME_BABY_BOTTLES,Bottles and nipples
+HOME_BABY_LOTION,Baby lotion/shampoo/similar items
+HOME_BABY_OIL,Baby oil
+HOME_BABY_PACIFIER,Pacifiers and teething rings
+HOME_BABY_POWDER,Baby powder (non-medicated)
+HOME_BABY_POWDER_MED,Baby powder (medicated)
+HOME_BABY_WIPES,Baby wipes
+HOME_CAR_SEATS,Car seats
+HOME_CRIBS,Cribs
+HOME_MEDICALBRACES,Medical and therapeutic braces
+HOME_BANDAGES,Bandages for first aid
+HOME_MEDICINAL,Products used primarily as health aids and therapeutic agents (non-prescription)
+HOME_DENTURES,Dentures
+HOME_THERMOMETER,Thermometers
+HOME_ICYHOT,Single use therapeutic hot or cold products
+HOME_SHOWERCAP,Shower cap
+PRESCRIPTION_MEDS,Prescription medication
+HOME_ACNETREATNEMT,Acne treatments
+HOME_PETROLEUMJELLY,Petroleum jelly labeled with drug facts
+HOME_FEMININEHYGIENE,"Tampons, sanitary napkins, menstrual cups etc."
+HOME_DENTURECLEANERS,Denture cleaners
+HOME_EYEGLASSES_CONTACTS,Eyeglasses or contact lenses
+HOME_CONTACTSOLUTION,Contact solution
+HOME_SHOEPOLISH,Shoe Polish
+PERIODICAL_SUBSCRIPTION,Periodical delivered electronically
+PET_FOOD,Pet food
+PLANT_NON_FOOD,Plants for home use - includes flowers and trees
+PLANT_SEEDS_FOOD,Seeds to grow food for personal consumption
+PLANT_SEEDS_NON_FOOD,Seeds to grow plants that don't produce food
+PLANT_FOOD_ANNUAL,Plants to grow food for home consumption
+PLANT_FOOD_PERENNIAL,"Plants that will generate food over many years, including fruit trees"
+SHIPPING,Charges for shipping & handling
